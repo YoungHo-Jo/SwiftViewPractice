@@ -1,6 +1,6 @@
 //
-//  ViewPracticeUITests.swift
-//  ViewPracticeUITests
+//  TableViewPracticeUITests.swift
+//  TableViewPracticeUITests
 //
 //  Created by JoYoungHo on 2017. 1. 25..
 //  Copyright © 2017년 JoYoungHo. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ViewPracticeUITests: XCTestCase {
+class TableViewPracticeUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

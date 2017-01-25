@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ViewPractice.xcscheme</key>
+		<key>TableViewPractice.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C84D68551E3874A80073FF1B</key>
+		<key>C84D688F1E388C780073FF1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C84D68691E3874A80073FF1B</key>
+		<key>C84D68A31E388C780073FF1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C84D68741E3874A80073FF1B</key>
+		<key>C84D68AE1E388C780073FF1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

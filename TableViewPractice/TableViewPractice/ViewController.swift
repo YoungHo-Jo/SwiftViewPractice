@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ViewPractice
+//  TableViewPractice
 //
 //  Created by JoYoungHo on 2017. 1. 25..
 //  Copyright © 2017년 JoYoungHo. All rights reserved.
@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var testLabel: UILabel!
     
     var items: [String] = ["we", "heart", "swift"]
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -48,4 +48,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         testLabel.text = items[indexPath.row]
     }
 }
+
 

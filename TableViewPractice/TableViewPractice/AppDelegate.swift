@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ViewPractice
+//  TableViewPractice
 //
 //  Created by JoYoungHo on 2017. 1. 25..
 //  Copyright © 2017년 JoYoungHo. All rights reserved.

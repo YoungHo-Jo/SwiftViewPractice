@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C84D68551E3874A80073FF1B"
-               BuildableName = "ViewPractice.app"
-               BlueprintName = "ViewPractice"
-               ReferencedContainer = "container:ViewPractice.xcodeproj">
+               BlueprintIdentifier = "C84D688F1E388C780073FF1B"
+               BuildableName = "TableViewPractice.app"
+               BlueprintName = "TableViewPractice"
+               ReferencedContainer = "container:TableViewPractice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C84D68691E3874A80073FF1B"
-               BuildableName = "ViewPracticeTests.xctest"
-               BlueprintName = "ViewPracticeTests"
-               ReferencedContainer = "container:ViewPractice.xcodeproj">
+               BlueprintIdentifier = "C84D68A31E388C780073FF1B"
+               BuildableName = "TableViewPracticeTests.xctest"
+               BlueprintName = "TableViewPracticeTests"
+               ReferencedContainer = "container:TableViewPractice.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C84D68741E3874A80073FF1B"
-               BuildableName = "ViewPracticeUITests.xctest"
-               BlueprintName = "ViewPracticeUITests"
-               ReferencedContainer = "container:ViewPractice.xcodeproj">
+               BlueprintIdentifier = "C84D68AE1E388C780073FF1B"
+               BuildableName = "TableViewPracticeUITests.xctest"
+               BlueprintName = "TableViewPracticeUITests"
+               ReferencedContainer = "container:TableViewPractice.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C84D68551E3874A80073FF1B"
-            BuildableName = "ViewPractice.app"
-            BlueprintName = "ViewPractice"
-            ReferencedContainer = "container:ViewPractice.xcodeproj">
+            BlueprintIdentifier = "C84D688F1E388C780073FF1B"
+            BuildableName = "TableViewPractice.app"
+            BlueprintName = "TableViewPractice"
+            ReferencedContainer = "container:TableViewPractice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C84D68551E3874A80073FF1B"
-            BuildableName = "ViewPractice.app"
-            BlueprintName = "ViewPractice"
-            ReferencedContainer = "container:ViewPractice.xcodeproj">
+            BlueprintIdentifier = "C84D688F1E388C780073FF1B"
+            BuildableName = "TableViewPractice.app"
+            BlueprintName = "TableViewPractice"
+            ReferencedContainer = "container:TableViewPractice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C84D68551E3874A80073FF1B"
-            BuildableName = "ViewPractice.app"
-            BlueprintName = "ViewPractice"
-            ReferencedContainer = "container:ViewPractice.xcodeproj">
+            BlueprintIdentifier = "C84D688F1E388C780073FF1B"
+            BuildableName = "TableViewPractice.app"
+            BlueprintName = "TableViewPractice"
+            ReferencedContainer = "container:TableViewPractice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
