@@ -14,6 +14,7 @@
 		C84D689E1E388C780073FF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84D689C1E388C780073FF1B /* LaunchScreen.storyboard */; };
 		C84D68A91E388C780073FF1B /* TableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D68A81E388C780073FF1B /* TableViewPracticeTests.swift */; };
 		C84D68B41E388C780073FF1B /* TableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D68B31E388C780073FF1B /* TableViewPracticeUITests.swift */; };
+		C84D68C41E388E900073FF1B /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D68C31E388E900073FF1B /* MyCustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C84D68AF1E388C780073FF1B /* TableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84D68B31E388C780073FF1B /* TableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		C84D68B51E388C780073FF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84D68C31E388E900073FF1B /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C84D689A1E388C780073FF1B /* Assets.xcassets */,
 				C84D689C1E388C780073FF1B /* LaunchScreen.storyboard */,
 				C84D689F1E388C780073FF1B /* Info.plist */,
+				C84D68C31E388E900073FF1B /* MyCustomTableViewCell.swift */,
 			);
 			path = TableViewPractice;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				C84D68961E388C780073FF1B /* ViewController.swift in Sources */,
 				C84D68941E388C780073FF1B /* AppDelegate.swift in Sources */,
+				C84D68C41E388E900073FF1B /* MyCustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

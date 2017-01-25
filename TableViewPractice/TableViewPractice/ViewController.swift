@@ -12,14 +12,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var testLabel: UILabel!
+
     
-    var items: [String] = ["we", "heart", "swift"]
+    var monthArray = ["01", "01", "01"]
+    var dayArray = ["11", "15", "22"]
+    var weekArray = ["W", "T", "S"]
+    var timeArray = ["01:00", "23:30", "18:30"]
+    var contentArray = ["가나다라", "마바사아자", "카카캌캌ㅋ카카카카카캌ㅋ"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
         
     }
@@ -31,22 +34,29 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return self.items.count
+        return self.contentArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell: UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")!
+        let cell: MyCustomTableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "MyCustomTableViewCell") as! MyCustomTableViewCell
         
-        cell.textLabel?.text = self.items[indexPath.row]
+        cell.monthLabel.text = monthArray[indexPath.row]
+        cell.dayLabel.text = dayArray[indexPath.row]
+        cell.weekdayLabel.text = weekArray[indexPath.row]
+        cell.timeLabel.text = timeArray[indexPath.row]
+        cell.contentLabel.text = contentArray[indexPath.row]
+        
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("You selected cell #\(indexPath.row)")
-        print("text: \(items[indexPath.row])")
-        testLabel.text = items[indexPath.row]
+        testLabel.text = contentArray[indexPath.row]
     }
 }
+
+
+
 
 
